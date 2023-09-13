@@ -1,0 +1,64 @@
+.video-container{
+    height: 80vh;
+    border-radius: 20px;
+    background-color: white;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+}
+
+.video-container ::-webkit-scrollbar{
+    display: none;
+}
+.videos{
+    position: relative;
+}
+.fa{
+    position: absolute;
+    bottom: 10%;
+    left : 35%;
+}
+.fa h4{
+    margin: 0;
+    color : white;
+    margin-top: 8%;
+    margin-left: 25%;
+}
+
+.icon-styling{
+    position: absolute;
+    bottom: 5%;
+    left: 36%;
+}
+.like{
+    cursor: pointer;
+    color: red;
+}
+.unlike{
+    cursor: pointer;
+    color: white;
+}
+
+.chat-styling{
+    position: absolute;
+    color: white;
+    left: 40%;
+    bottom: 5%;
+}
+.modal-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+}
+.modal-video{
+    height:80vh;
+}
+.modal-left{
+    height: 100%;
+    width: 50%;
+}
+.modal-right{
+    height: 100%;
+    width: 50%;
+}

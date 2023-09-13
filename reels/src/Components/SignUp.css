@@ -1,0 +1,21 @@
+SignUpCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    /* max-width: 500px; */
+}
+ 
+.InstaText{
+width: 100%;
+margin-top: 5%;
+}
+
+.text1{
+color:grey;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+  
